@@ -1,10 +1,12 @@
 body {
     text-align: center;
+    background: linear-gradient( to right, white, black);
+    color: white;
 }
 
 h1 {
     font-family: Monoton;
-    font-size: 70px;
+    font-size: 50px;
     margin: 0.2em;
 }
 
@@ -16,10 +18,8 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-table,
-tr,
-td {
-    border: 1px solid black;
+table, tr, td {
+    border: 2px solid black;
 }
 
 table {
@@ -28,13 +28,17 @@ table {
 }
 
 tr {
-    height: 20px;
+    height: 30px;
 }
 
 td {
-    width: 20px;
+    width: 80px;
 }
 
 input[type=number] {
     width: 6em;
+}
+
+.grid_Toggle {
+    border:hidden ;
 }
